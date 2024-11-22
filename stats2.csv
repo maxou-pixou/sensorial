@@ -21,3 +21,19 @@ Sujet;Genre;Age;Activite;VolEcriture;TypeStylo;Position;Esthetique;Couleur;Finit
 20;M;27;Etudiant;faible;BIC;2;3;4;3;3;3;3;2;2;1;2;2;3;3;3;4;3;4;3;leger;assez lisse;agreable;;
 21;F;35;Etudiant ;faible;BIC;2;3;2;2;3;2;4;4;3;2;3;4;3;2;2;3;4;4;3;fluent;rapide;;;
 22;M;22;Etudiant ;faible;BIC;1;2;3;2;4;3;4;3;3;1;4;3;4;3;4;4;4;4;4;leger;pratique;efficace;;
+23;M;27;Prof;faible;Stylo bille;2;2;1;3;3;3;4;2;2;3;3;3;4;1;4;4;3;3;4;classique;efficace;;;
+24;F;27;Conseiller pedagogique;Na;BIC stylo feutre;2;2;2;3;2;4;4;0;4;4;4;3;3;3;4;4;4;1;4;simple;efficace;;;
+25;M;51;Prof;faible;BIC feutres crayons;2;3;4;4;4;1;4;4;4;3;4;0;4;4;4;4;4;4;4;perfection;;;;
+26;M;33;Maitre de conference;jamais;Aucun;3;2;4;2;3;3;3;3;3;4;2;2;2;1;3;2;1;2;2;facile;simple;classique;frotte;seche
+27;F;22;Etudiant;faible;BIC;2,3;4;3;2;3;0;4;2;4;4;2;2;4;2;2;4;4;4;4;simple;efficace;economique;parfait;
+28;F;50;Assistante dentaire;faible;stylo bille rond;3;2;3;1;1;4;4;1;3;4;3;4;4;3;4;4;2;4;4;pratique;souvenir d'enfance;pas cher;Douloureux;
+29;M;50;Agent comptable;faible;criterium stylo feutre BIC;2;2;2;3;3;2;3;1;0;1;1;1;2;3;3;3;1;2;2;anciennete;connu;utile;;
+30;F;44;Reconversion pro;faible;Couleur ou crayon papier;2;2;3;1;3;2;4;3;1;1;1;1;4;3;4;3;3;3;1;classique;basique;triste;efficace;
+31;M;49;Responsable operation;faible;BIC 4 couleurs;2;2;4;3;3;4;4;3;2;3;4;3;3;3;3;3;3;4;3;classique;intemporel;standard;;
+32;F;26;Etudiant;faible;BIC;2;2;2;3;3;3;4;3;3;3;3;2;2;3;3;4;2;3;3;agreable;leger;;;
+33;F;23;Etudiant;faible;Stylo à bille;3,4;3;4;3;2;4;3;3;4;3;1;3;4;4;4;4;3;4;4;agreable;simple;pratique;;
+34;F;59;Prof;faible;BIC 4 couleurs;2;3;4;2;4;0;0;4;4;2;2;4;4;4;4;2;4;4;4;fluidite;bonne prise en main;;;
+35;M;54;Numerique;Na;Aucun;2;2;3;3;1;4;4;0;1;1;1;4;4;2;4;4;0;4;0;desagreable;;;;
+36;F;39;Salariee;faible;BIC ;3;4;4;3;4;3;4;4;4;3;4;3;2;4;4;4;4;4;4;confortable;pratique;belle couleur d'encre;;
+37;F;31;Scolarite;NA;BIC;3;3;3;3;3;2;4;3;4;4;4;4;3;3;3;4;3;4;3;NA;;;;
+38;M;24;Etudiant ;faible;pointe fine;3;3;4;4;3;4;4;3;4;4;4;4;4;3;4;4;4;4;4;facilite;confort;fluidite;;
