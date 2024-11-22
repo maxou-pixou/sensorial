@@ -1,14 +1,12 @@
-# Si ton fichier CSV est déjà chargé dans 'data', on sélectionne les colonnes 8 à 25
-moyennes_colonnes <- colMeans(stats2[, c(11, 12, 13, 14, 23,24,25)], na.rm = TRUE)
 
 
 # Créer un DataFrame avec les moyennes des colonnes
 df_moyennes <- data.frame(Moyennes = moyennes_colonnes)
 
-  
+
 
 # Restructurer les données dans un format long pour les colonnes 8 à 25
-data_long <- stats2[, c(11, 12, 13, 14,8,9,10)] %>%
+data_long <- stats2[, c(11,23,24,25)] %>%
   pivot_longer(cols = everything(), names_to = "Categorie", values_to = "Valeurs")
 
 # Réaliser l'ANOVA
