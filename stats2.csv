@@ -1,41 +1,39 @@
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;Visuel;;;Tactile;;;;Auditif;;;;Écriture;;;;Hédonique;;;;;;;
 Sujet;Genre;Age;Activite;VolEcriture;TypeStylo;Position;Esthetique;Couleur;Finitions;PriseEnMain;Texture;Poids;Ergonomie;Songeneral;Frottement;Cliquetis;Intensite;RepEncre;IntensiteEncre;Fluidite;Sechage;Appreciation;Aisance;RachatBic;1;2;3;4;5
-1;F;23;Etudiant;Na;BIC;4;3;3;4;3;2;4;3;3;1;2;2;3;3;3;4;3;4;4;fluidite;agreable;;;
-2;M;22;Etudiant;Na;BIC;2;4;3;4;4;2;3;2;1;1;2;3;2;3;4;4;3;4;4;simple;ergonomique;fluide;leger;
-3;F;22;Etudiant;Na;BIC;3;3;4;2;3;4;4;3;3;4;4;3;3;3;4;3;4;4;4;simple;utile;pratique;ambidextre;
-4;M;22;Etudiant;faible;BIC;3;4;4;3;3;4;4;4;3;1;3;4;3;2;3;4;3;4;4;pratique;durable;fiable;;
-5;M;18;Etudiant ;Na;BIC bille waterman;2;1;4;2;4;4;4;4;2;1;2;4;4;1;4;3;4;4;4;Fiable;Precis;complet;efficace;eternel
-6;M;18;Etudiant ;Na;BIC;2;3;2;2;3;4;4;4;3;2;1;2;3;1;3;4;1;4;3;leger;ancre fine;Bonne prise en main ;;
-7;M;18;Etudiant;beaucoup;FRICTION;3;1;3;2;4;3;4;3;2;2;3;3;2;3;3;4;2;3;1;simple;passe-partout;;;
-8;F;20;Etudiant;moyen;BIC Papermate;2;1;2;4;4;2;4;3;4;4;4;3;4;3;4;3;4;4;4;leger;agrable;simple;pratique;
-9;M;19;Etudiant ;faible;BIC;2;3;4;3;2;3;4;3;2;3;3;0;2;3;4;4;3;4;3;basique;rentable;leger;;
-10;M;22;Etudiant ;moyen;BIC 4 couleurs;1;3;2;2;2;2;3;3;3;2;4;4;3;3;3;3;2;4;3;simple;efficace;leger;;
-11;M;24;Etudiant ;faible;Stylo encre;3;2;2;2;3;4;3;3;4;3;3;3;3;2;3;4;4;4;4;efficace;simple;pratique;;
-12;M;18;Etudiant ;Na;BIC 4 couleurs;2;3;4;2;1;4;4;3;4;4;2;4;3;3;4;4;4;4;4;simple;efficace;durable;;
-13;M;18;Etudiant;moyen;BIC 4 couleurs stylo plume;2;3;3;2;4;4;4;3;1;1;1;3;3;3;3;4;2;3;2;simple;abordable;rustique;classique;
-14;M;22;Etudiant ;Na;BIC 4 couleurs;4;1;2;1;3;4;4;1;3;3;4;3;3;2;3;4;2;4;1;simple;minimaliste;leger;;
-15;M;22;Etudiant;Na;Stabilo ergonomique effacable;2;1;1;1;1;4;3;0;3;4;4;4;4;2;4;3;3;4;1;basique;simple;efficace;unique;strict minimum
-16;M;21;Etudiant;faible;Plume;2;2;3;1;3;2;4;3;3;2;3;4;3;3;3;4;3;4;4;fluide;leger;pratique;;
-17;M;22;Etudiant;faible;BIC 4 couleurs;1;1;2;3;2;4;4;1;3;2;3;2;4;3;4;4;3;3;1;simple;fonctionnel;;;
-18;F;23;Etudiant;Na;Stylo bille;2;2;3;4;4;4;4;2;1;2;3;1;3;3;4;4;2;3;3;simple;pratique;dur;;
-19;M;23;Etudiant;faible;BIC;2;3;2;3;2;3;4;3;4;3;3;2;4;4;4;4;4;4;4;leger;agreable;;;
-20;M;27;Etudiant;faible;BIC;2;3;4;3;3;3;3;2;2;1;2;2;3;3;3;4;3;4;3;leger;assez lisse;agreable;;
-21;F;35;Etudiant ;faible;BIC;2;3;2;2;3;2;4;4;3;2;3;4;3;2;2;3;4;4;3;fluent;rapide;;;
-22;M;22;Etudiant ;faible;BIC;1;2;3;2;4;3;4;3;3;1;4;3;4;3;4;4;4;4;4;leger;pratique;efficace;;
-23;M;27;Prof;faible;Stylo bille;2;2;1;3;3;3;4;2;2;3;3;3;4;1;4;4;3;3;4;classique;efficace;;;
-24;F;27;Conseiller pedagogique;Na;BIC stylo feutre;2;2;2;3;2;4;4;0;4;4;4;3;3;3;4;4;4;1;4;simple;efficace;;;
-25;M;51;Prof;faible;BIC feutres crayons;2;3;4;4;4;1;4;4;4;3;4;0;4;4;4;4;4;4;4;perfection;;;;
-26;M;33;Maitre de conference;jamais;Aucun;3;2;4;2;3;3;3;3;3;4;2;2;2;1;3;2;1;2;2;facile;simple;classique;frotte;seche
-27;F;22;Etudiant;faible;BIC;2,3;4;3;2;3;0;4;2;4;4;2;2;4;2;2;4;4;4;4;simple;efficace;economique;parfait;
-28;F;50;Assistante dentaire;faible;stylo bille rond;3;2;3;1;1;4;4;1;3;4;3;4;4;3;4;4;2;4;4;pratique;souvenir d'enfance;pas cher;Douloureux;
-29;M;50;Agent comptable;faible;criterium stylo feutre BIC;2;2;2;3;3;2;3;1;0;1;1;1;2;3;3;3;1;2;2;anciennete;connu;utile;;
-30;F;44;Reconversion pro;faible;Couleur ou crayon papier;2;2;3;1;3;2;4;3;1;1;1;1;4;3;4;3;3;3;1;classique;basique;triste;efficace;
-31;M;49;Responsable operation;faible;BIC 4 couleurs;2;2;4;3;3;4;4;3;2;3;4;3;3;3;3;3;3;4;3;classique;intemporel;standard;;
-32;F;26;Etudiant;faible;BIC;2;2;2;3;3;3;4;3;3;3;3;2;2;3;3;4;2;3;3;agreable;leger;;;
-33;F;23;Etudiant;faible;Stylo à bille;3,4;3;4;3;2;4;3;3;4;3;1;3;4;4;4;4;3;4;4;agreable;simple;pratique;;
-34;F;59;Prof;faible;BIC 4 couleurs;2;3;4;2;4;0;0;4;4;2;2;4;4;4;4;2;4;4;4;fluidite;bonne prise en main;;;
-35;M;54;Numerique;Na;Aucun;2;2;3;3;1;4;4;0;1;1;1;4;4;2;4;4;0;4;0;desagreable;;;;
-36;F;39;Salariee;faible;BIC ;3;4;4;3;4;3;4;4;4;3;4;3;2;4;4;4;4;4;4;confortable;pratique;belle couleur d'encre;;
-37;F;31;Scolarite;NA;BIC;3;3;3;3;3;2;4;3;4;4;4;4;3;3;3;4;3;4;3;NA;;;;
-38;M;24;Etudiant ;faible;pointe fine;3;3;4;4;3;4;4;3;4;4;4;4;4;3;4;4;4;4;4;facilite;confort;fluidite;;
+1;F;23;Etudiant;0;BIC;4;3;3;4;3;2;4;3;3;1;2;2;3;3;3;4;3;4;4;fluidite;agreable;;;
+2;M;22;Etudiant;0;BIC;2;4;3;4;4;2;3;2;1;1;2;3;2;3;4;4;3;4;4;simple;ergonomique;fluide;leger;
+3;F;22;Etudiant;0;BIC;3;3;4;2;3;4;4;3;3;4;4;3;3;3;4;3;4;4;4;simple;utile;pratique;ambidextre;
+4;M;22;Etudiant;1;BIC;3;4;4;3;3;4;4;4;3;1;3;4;3;2;3;4;3;4;4;pratique;durable;fiable;;
+5;M;18;Etudiant ;0;BIC bille waterman;2;1;4;2;4;4;4;4;2;1;2;4;4;1;4;3;4;4;4;Fiable;Precis;complet;efficace;eternel
+6;M;18;Etudiant ;0;BIC;2;3;2;2;3;4;4;4;3;2;1;2;3;1;3;4;1;4;3;leger;ancre fine;Bonne prise en main ;;
+7;M;18;Etudiant;3;FRICTION;3;1;3;2;4;3;4;3;2;2;3;3;2;3;3;4;2;3;1;simple;passe-partout;;;
+8;F;20;Etudiant;2;BIC Papermate;2;1;2;4;4;2;4;3;4;4;4;3;4;3;4;3;4;4;4;leger;agrable;simple;pratique;
+9;M;19;Etudiant ;1;BIC;2;3;4;3;2;3;4;3;2;3;3;0;2;3;4;4;3;4;3;basique;rentable;leger;;
+10;M;22;Etudiant ;2;BIC 4 couleurs;1;3;2;2;2;2;3;3;3;2;4;4;3;3;3;3;2;4;3;simple;efficace;leger;;
+11;M;24;Etudiant ;1;Stylo encre;3;2;2;2;3;4;3;3;4;3;3;3;3;2;3;4;4;4;4;efficace;simple;pratique;;
+12;M;18;Etudiant ;0;BIC 4 couleurs;2;3;4;2;1;4;4;3;4;4;2;4;3;3;4;4;4;4;4;simple;efficace;durable;;
+13;M;18;Etudiant;2;BIC 4 couleurs stylo plume;2;3;3;2;4;4;4;3;1;1;1;3;3;3;3;4;2;3;2;simple;abordable;rustique;classique;
+14;M;22;Etudiant ;0;BIC 4 couleurs;4;1;2;1;3;4;4;1;3;3;4;3;3;2;3;4;2;4;1;simple;minimaliste;leger;;
+15;M;22;Etudiant;0;Stabilo ergonomique effacable;2;1;1;1;1;4;3;0;3;4;4;4;4;2;4;3;3;4;1;basique;simple;efficace;unique;strict minimum
+16;M;21;Etudiant;1;Plume;2;2;3;1;3;2;4;3;3;2;3;4;3;3;3;4;3;4;4;fluide;leger;pratique;;
+17;M;22;Etudiant;1;BIC 4 couleurs;1;1;2;3;2;4;4;1;3;2;3;2;4;3;4;4;3;3;1;simple;fonctionnel;;;
+18;F;23;Etudiant;0;Stylo bille;2;2;3;4;4;4;4;2;1;2;3;1;3;3;4;4;2;3;3;simple;pratique;dur;;
+19;M;23;Etudiant;1;BIC;2;3;2;3;2;3;4;3;4;3;3;2;4;4;4;4;4;4;4;leger;agreable;;;
+20;M;27;Etudiant;1;BIC;2;3;4;3;3;3;3;2;2;1;2;2;3;3;3;4;3;4;3;leger;assez lisse;agreable;;
+21;F;35;Etudiant ;1;BIC;2;3;2;2;3;2;4;4;3;2;3;4;3;2;2;3;4;4;3;fluent;rapide;;;
+22;M;22;Etudiant ;1;BIC;1;2;3;2;4;3;4;3;3;1;4;3;4;3;4;4;4;4;4;leger;pratique;efficace;;
+23;M;27;Non-etudiant;1;Stylo bille;2;2;1;3;3;3;4;2;2;3;3;3;4;1;4;4;3;3;4;classique;efficace;;;
+24;F;27;Non-etudiant;0;BIC stylo feutre;2;2;2;3;2;4;4;0;4;4;4;3;3;3;4;4;4;1;4;simple;efficace;;;
+25;M;51;Non-etudiant;1;BIC feutres crayons;2;3;4;4;4;1;4;4;4;3;4;0;4;4;4;4;4;4;4;perfection;;;;
+26;M;33;Non-etudiant;0;Aucun;3;2;4;2;3;3;3;3;3;4;2;2;2;1;3;2;1;2;2;facile;simple;classique;frotte;seche
+27;F;22;Etudiant;1;BIC;2,3;4;3;2;3;0;4;2;4;4;2;2;4;2;2;4;4;4;4;simple;efficace;economique;parfait;
+28;F;50;Non-etudiant;1;stylo bille rond;3;2;3;1;1;4;4;1;3;4;3;4;4;3;4;4;2;4;4;pratique;souvenir d'enfance;pas cher;Douloureux;
+29;M;50;Non-etudiant;1;criterium stylo feutre BIC;2;2;2;3;3;2;3;1;0;1;1;1;2;3;3;3;1;2;2;anciennete;connu;utile;;
+30;F;44;Non-etudiant;1;Couleur ou crayon papier;2;2;3;1;3;2;4;3;1;1;1;1;4;3;4;3;3;3;1;classique;basique;triste;efficace;
+31;M;49;Non-etudiant;1;BIC 4 couleurs;2;2;4;3;3;4;4;3;2;3;4;3;3;3;3;3;3;4;3;classique;intemporel;standard;;
+32;F;26;Etudiant;1;BIC;2;2;2;3;3;3;4;3;3;3;3;2;2;3;3;4;2;3;3;agreable;leger;;;
+33;F;23;Etudiant;1;Stylo à bille;3,4;3;4;3;2;4;3;3;4;3;1;3;4;4;4;4;3;4;4;agreable;simple;pratique;;
+34;F;59;Non-etudiant;1;BIC 4 couleurs;2;3;4;2;4;0;0;4;4;2;2;4;4;4;4;2;4;4;4;fluidite;bonne prise en main;;;
+35;M;54;Non-etudiant;0;Aucun;2;2;3;3;1;4;4;0;1;1;1;4;4;2;4;4;0;4;0;desagreable;;;;
+36;F;39;Non-etudiant;1;BIC ;3;4;4;3;4;3;4;4;4;3;4;3;2;4;4;4;4;4;4;confortable;pratique;belle couleur d'encre;;
+37;F;31;Non-etudiant;0;BIC;3;3;3;3;3;2;4;3;4;4;4;4;3;3;3;4;3;4;3;NA;;;;
+38;M;24;Etudiant ;1;pointe fine;3;3;4;4;3;4;4;3;4;4;4;4;4;3;4;4;4;4;4;facilite;confort;fluidite;;
