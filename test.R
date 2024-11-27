@@ -1,13 +1,12 @@
-# Charger les packages nécessaires
-library(tidyr)
-library(ggplot2)
+# Filtrer les hommes
+stats_hommes <- stats2[stats2$Genre == "F", ]
 
-# Calcul des moyennes par catégorie
-moyennes_visuel <- apply(stats2[, c("Esthetique", "Couleur", "Finitions")], 1, mean, na.rm = TRUE)
-moyennes_tactile <- apply(stats2[, c("PriseEnMain", "Texture", "Poids", "Ergonomie")], 1, mean, na.rm = TRUE)
-moyennes_auditif <- apply(stats2[, c("Songeneral", "Frottement", "Cliquetis", "Intensite")], 1, mean, na.rm = TRUE)
-moyennes_ecriture <- apply(stats2[, c("RepEncre", "IntensiteEncre", "Fluidite", "Sechage")], 1, mean, na.rm = TRUE)
-moyennes_hedonique <- apply(stats2[, c("Appreciation", "Aisance", "RachatBic")], 1, mean, na.rm = TRUE)
+# Calculer les moyennes par catégorie pour les hommes
+moyennes_visuel_h <- rowMeans(stats_hommes[, c("Esthetique", "Couleur", "Finitions")], na.rm = TRUE)
+moyennes_tactile_h <- rowMeans(stats_hommes[, c("PriseEnMain", "Texture", "Poids", "Ergonomie")], na.rm = TRUE)
+moyennes_auditif_h <- rowMeans(stats_hommes[, c("Songeneral", "Frottement", "Cliquetis", "Intensite")], na.rm = TRUE)
+moyennes_ecriture_h <- rowMeans(stats_hommes[, c("RepEncre", "IntensiteEncre", "Fluidite", "Sechage")], na.rm = TRUE)
+moyennes_hedonique_h <- rowMeans(stats_hommes[, c("Appreciation", "Aisance", "RachatBic")], na.rm = TRUE)
 
 # Remplacer les NA dans les moyennes par des valeurs par défaut
 moyennes_visuel[is.na(moyennes_visuel)] <- 0
