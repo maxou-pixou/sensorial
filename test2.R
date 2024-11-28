@@ -16,6 +16,9 @@ stats2$Position <- as.factor(stats2$Position)
 stats2$Age <- as.factor(stats2$Age)
 stats2$VolEcriture <- as.factor(stats2$VolEcriture)
 
+
+
+
 # Effectuer une ANOVA à deux facteurs (Genre et Activite)
 anova_result <- aov(MoyenneGlobale ~ Genre + Activite + Position + Age + VolEcriture, data = stats2)
 anova_summary <- summary(anova_result)
